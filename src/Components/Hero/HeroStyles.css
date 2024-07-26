@@ -1,0 +1,57 @@
+.hero-container {
+    padding: 140px 0;
+}
+
+.col-article-left {
+    padding-top: 7%;
+}
+
+.hero-imagen {
+    z-index: 2;
+    position: relative;
+    width: 400px;
+}
+
+.imagen-background {
+    position: relative;
+}
+
+.imagen-background::before {
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background-color: rgb(55, 55, 232);
+    top: -40px;
+    left: 40px;
+    z-index: 1;
+}
+
+.h1-text {
+    color: white;
+
+    margin-bottom: 10%;
+    font-size: 60px;
+    width: 450px;
+
+
+}
+
+span {
+    border-bottom: 8px solid white;
+}
+
+.p-text {
+    color: rgba(255, 255, 255, 0.445);
+    margin-top: 5%;
+}
+
+.h2-hero {
+    color: white;
+    padding-top: 20%;
+}
+
+.p-hero {
+    color: rgba(255, 255, 255, 0.445);
+
+}

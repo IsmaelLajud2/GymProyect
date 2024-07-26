@@ -1,0 +1,17 @@
+.bg-gym {
+    background-color: #1f212c;
+}
+
+.imagen-brand {
+    width: 190px;
+}
+
+
+
+#nav-text {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
+
+
+}
