@@ -1,6 +1,6 @@
 
 
-
+import '../src/app.css'
 import NavbarHero from './Components/Navbar/NavbarHero'
 import Hero from './Components/Hero/Hero'
 import ServicesHero from './Components/Services/ServicesHero'
@@ -8,9 +8,12 @@ import ServicesHero from './Components/Services/ServicesHero'
 const App = () => {
   return (
     <> 
-   <NavbarHero></NavbarHero>
+    <div className='page-container'> 
+    <NavbarHero></NavbarHero>
     <Hero></Hero>
     <ServicesHero></ServicesHero>
+    </div>
+
 </>
   )
 }
