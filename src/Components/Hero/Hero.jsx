@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Row,Container,Col } from 'react-bootstrap'
 import '../Hero/HeroStyles.css'
 const Hero = () => {
@@ -24,7 +24,7 @@ const Hero = () => {
             <Row >
                 <Col>
                 <article className='article-hero'>
-                    <h2 className='h2-hero'>4.6</h2>
+                    <h2 className='h2-hero'>4.8 🌟 </h2>
                     <br /><p className='p-hero'>calificación promedio en plataforma de clientes</p>
                 </article>
                 </Col>

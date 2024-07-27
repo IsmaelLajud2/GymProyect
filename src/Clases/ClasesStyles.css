@@ -1,0 +1,54 @@
+.clases-container {
+    padding-bottom: 80px;
+    padding-top: 20px;
+
+}
+
+.h1-clases {
+    padding-bottom: 40px;
+    color: white;
+    position: relative;
+    font-weight: 700;
+
+}
+
+.h1-clases::after {
+    position: absolute;
+    width: 70%;
+    height: 2%;
+    background: white;
+    content: "";
+    right: 45px;
+    top: 30px;
+}
+
+.clases-row {
+    display: flex;
+    justify-content: center;
+}
+
+.clases-card {
+    background-color: #292c36;
+    transition: .4s;
+    border-radius: 2%;
+
+}
+
+.clases-card:hover {
+    background-color: #2c5bff;
+    transform: translateY(-5px);
+}
+
+.imagen-clases {
+    width: 100%
+}
+
+.h4-clases {
+    color: white;
+    padding: 25px 0 20px 20px
+}
+
+.p-clases {
+    color: rgba(255, 255, 255, 0.445);
+    padding: 5px 0 25px 10px;
+}

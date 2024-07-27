@@ -28,7 +28,7 @@ const ServicesHero = () => {
         <div className='card-services'>
         <img className='imagen-services' src='images/service2.png'alt='services.photo'></img>
         <h3>02</h3>
-        <h4>Perder peso adicional</h4>
+        <h4>Perdida de peso </h4>
         <p>Brindamos ayuda nutricional de la mejor calidad.</p> </div>
         </Col>
         <Col  className='col-card'>
@@ -43,7 +43,7 @@ const ServicesHero = () => {
         <img src='images/service4.png' className='imagen-services'alt='services.photo'></img>
         <h3>04</h3>
         <h4>Entusiastas del gimnasio</h4>
-        <p>Entre en un ambiente amigable</p>
+        <p>Entrena en un ambiente amigable y familiar</p>
         </div>
         </Col>
     </Row>

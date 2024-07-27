@@ -1,0 +1,10 @@
+.clases-container {
+    padding: 90px 0 20px 0;
+}
+
+.h1-planes {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
