@@ -1,10 +1,74 @@
 .clases-container {
-    padding: 90px 0 20px 0;
+    padding: 20px;
+    background-color: #1f212c;
+    /* Ajustar al color de fondo deseado */
+    color: #ffffff;
+    /* Ajustar al color de texto deseado */
 }
 
-.h1-planes {
+.plan-toggle-card {
+    margin-bottom: 20px;
+    background-color: #292c36;
+
     color: white;
+}
+
+li {
+    color: white;
+}
+
+.card-body {
+    background-color: #292c36;
+}
+
+.prices-container {
     display: flex;
-    justify-content: center;
-    font-weight: 700;
+    flex-direction: column;
+    /* Cambiado a columna para el diseño deseado */
+    gap: 10px;
+
+}
+
+.plan-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #1f212c;
+    border-style: double;
+    color: white;
+}
+
+.plan-card.selected {
+    border-color: #007bff;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.benefits-container {
+    margin-top: 20px;
+}
+
+.benefits {
+    list-style: none;
+    padding: ;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+
+    font-size: 20px;
+}
+
+.included-icon,
+.not-included-icon {
+    margin-left: 10px;
+}
+
+
+.not-included-icon {
+    color: red;
 }

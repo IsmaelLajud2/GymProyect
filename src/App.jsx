@@ -6,6 +6,7 @@ import Hero from './Components/Hero/Hero'
 import ServicesHero from './Components/Services/ServicesHero'
 import Clases from './Clases/Clases'
 import Planes from './Planes/Planes'
+import PlanesHero from './Planes/PlanesHero'
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
     <Hero></Hero>
     <ServicesHero></ServicesHero>
     <Clases></Clases>
-    <Planes></Planes>
+   <PlanesHero></PlanesHero>
     </div>
 
 </>

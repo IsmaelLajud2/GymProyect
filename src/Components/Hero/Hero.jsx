@@ -1,19 +1,30 @@
-
+import { useEffect } from 'react'
 import { Row,Container,Col } from 'react-bootstrap'
 import '../Hero/HeroStyles.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Hero = () => {
+
+    useEffect(() => {
+        Aos.init({
+          duration: 2000
+        })
+      }, [])
   return (
    <>
     <Container >
         <Row>
-            <Col  className='hero-container'> 
-            <div className='imagen-background'>
+            <Col  className='hero-container' data-aos="fade-right"  > 
+            <div className='imagen-background'  >
             <article>
-                <img className='hero-imagen' src="images/hero.png" alt="heroimagen" />
+              
+                <img   className='hero-imagen' src="images/hero.png" alt="heroimagen" />
+                
+        
             </article>
             </div>
             </Col>
-            <Col className='col-article-left'>
+            <Col className='col-article-left' data-aos="fade-left">
             <article className='h1-article'>
                 <h1 className='h1-text'>Es Hora<br></br><span>De Entrenar! </span> </h1>
                 <p className='p-text'>Bienvenido a nuestro gimnasio y centro de entrenamiento.
