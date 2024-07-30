@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Planes/PlanesStyles.css'
+import '../PlanesB/PlanesStyles.css'
 const CardPlan = ({ plan, selected, onSelect }) => {
   return (
     <div className={`plan-card ${selected ? 'selected' : ''}`} onClick={() => onSelect(plan)}>

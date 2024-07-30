@@ -1,12 +1,17 @@
-import React from 'react'
-import Planes from './Planes'
-import '../Planes/PlanHeroStyles.css'
+
+import '../Planes/PlanStyles.css'
+import PlanList from './PlanList'
 const PlanesHero = () => {
+
+    
   return (
-    <div className='App'>
-        <h1 >Escoge tu plan</h1>
-        <Planes></Planes>
+    <>
+    <div className='container-plan'>
+    <h1 className='h1-plan'>Selecciona un plan </h1>
+    <PlanList></PlanList>
     </div>
+ 
+    </>
   )
 }
 

@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-plan {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.h1-plan {
+    color: white
+}

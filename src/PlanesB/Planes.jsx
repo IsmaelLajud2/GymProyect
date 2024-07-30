@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import { Container,Row,Col,Card } from 'react-bootstrap'
-import '../Planes/PlanesStyles.css'
+import '../PlanesB/PlanesStyles.css'
 import PlanToggle from './PlanToggle'
 import axios from 'axios'
 

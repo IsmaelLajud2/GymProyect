@@ -1,13 +1,15 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import '../Clases/ClasesStyles.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Clases = () => {
   return (
     <>
    
-   <Container className='clases-container'>
+   <Container className='clases-container'  >
    <h1 className='h1-clases'>Clases destacadas</h1>
-   <Row className='clases-row'>
+   <Row className='clases-row' data-aos="fade-right">
         <Col className='clases-col'>
         <div className='clases-card'>
         <img src='images/Ciclismo.png' alt='bike' className='imagen-clases'/>

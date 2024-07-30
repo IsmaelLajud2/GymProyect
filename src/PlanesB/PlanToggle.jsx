@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Planes/ToggleStyles.css'
+import '../PlanesB/ToggleStyles.css'
 
 const PlanToggle = ({period , onToggle}) => {
 
@@ -19,6 +19,7 @@ const PlanToggle = ({period , onToggle}) => {
         <span className={period === 'Mensual' ? 'active' : ''}>Mensual</span>
         <span className={period === 'Anual' ? 'active' : ''}>Anual</span>
       </div>
+      
     </div>
 
 </>

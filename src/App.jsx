@@ -5,8 +5,9 @@ import NavbarHero from './Components/Navbar/NavbarHero'
 import Hero from './Components/Hero/Hero'
 import ServicesHero from './Components/Services/ServicesHero'
 import Clases from './Clases/Clases'
-import Planes from './Planes/Planes'
-import PlanesHero from './Planes/PlanesHero'
+
+
+import PlanesHero from './Planes/PlanesHero.jsx'
 
 const App = () => {
   return (
