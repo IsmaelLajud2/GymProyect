@@ -11,9 +11,11 @@ const NavbarHero = () => {
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home" className='nav-text' id='nav-text'>Inicio</Nav.Link>
-            <Nav.Link href="#features" className='nav-text' id='nav-text'>Cursos</Nav.Link>
-            <Nav.Link href="#pricing" className='nav-text'id='nav-text'>Beneficios</Nav.Link>
+            <Nav.Link href="#features" className='nav-text' id='nav-text'>Beneficios</Nav.Link>
+            <Nav.Link href="#pricing" className='nav-text'id='nav-text'>Clases</Nav.Link>
+            <Nav.Link href="#pricing" className='nav-text'id='nav-text'>Planes</Nav.Link>
             <Nav.Link href="#pricing" className='nav-text'id='nav-text'>Contacto</Nav.Link>
+
           </Nav>
         </Container>
       </Navbar>
