@@ -54,11 +54,11 @@
 
 .card-services {
     background-color: #292c36;
-    /* Fondo sólido para cada tarjeta */
+
     padding: 30px;
-    /* Espaciado interno */
+
     border-radius: 8px;
-    /* Bordes redondeados */
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,7 +83,7 @@
 
 .card-services p {
     color: rgba(255, 255, 255, 0.447);
-    /* Color ligeramente más claro para el texto */
+
     line-height: 25px;
     font-size: 15px;
 }
@@ -97,9 +97,9 @@
     position: absolute;
     margin-right: 40%;
     top: -35px;
-    /* Más arriba */
+
     left: 35px;
-    /* Más a la derecha */
+
     z-index: 10;
 }
 

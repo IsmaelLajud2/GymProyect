@@ -1,0 +1,73 @@
+.switch-container {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+
+}
+
+.switch-labels {
+    display: flex;
+    margin-left: 70px;
+    flex: 1;
+
+}
+
+.switch-labels span {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    /* Opcional: para una transición suave del color */
+}
+
+.switch-labels .active {
+    color: #54a1e4
+        /* Cambia el color o aplica otros estilos para el estado activo */
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    /* Espacio entre el switch y los spans */
+    position: relative;
+    width: 60px;
+    /* Ajusta el ancho del switch según sea necesario */
+}
+
+.switch input {
+    display: none;
+    /* Oculta el checkbox por defecto */
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: .4s;
+}
+
+.switch input:checked+.slider {
+    background-color: #2196F3;
+    /* Cambia el color cuando está activo */
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+.switch input:checked+.slider:before {
+    transform: translateX(26px);
+    /* Mueve el círculo cuando está activo */
+}

@@ -1,24 +1,22 @@
 import React from 'react'
-import '../PlanesB/ToggleStyles.css'
-const TogglePlan = ({togglePeriodo ,period}) => {
+import '../Planes/ToggleStyles.css'
+
+const TogglePlan = ({ togglePeriodo, period }) => {
   return (
-    <>
-     
     <div className='switch-container'>
-        <label  className="switch" >
-            <input checked={period === "Anual"} type='checkbox' onChange={() =>
-
-                togglePeriodo(period === "Mensual" ? "Anual" : "Mensual")
-            }></input>
-            <span className='slider'></span>
+      <div className='switch-labels'>
+        <span className={period === "Mensual" ? 'span-switch active' : 'span-switch'} onClick={() => togglePeriodo("Mensual")}>Mensual</span>
+        <label className="switch">
+          <input
+            checked={period === "Anual"}
+            type='checkbox'
+            onChange={() => togglePeriodo(period === "Mensual" ? "Anual" : "Mensual")}
+          />
+          <span className='slider'></span>
         </label>
-        <div className='switch-labels'>
-            <span className={period === "Mensual" ? 'active' : ''}>Mensual</span>
-            <span className={period === "Anual" ? 'active' : ''}>Anual</span>
-
-        </div>
+        <span className={period === "Anual" ? 'span-switch active' : 'span-switch'} onClick={() => togglePeriodo("Anual")}>Anual</span>
+      </div>
     </div>
-    </>
   )
 }
 
