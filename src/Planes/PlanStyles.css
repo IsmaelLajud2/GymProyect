@@ -117,14 +117,18 @@ li {
 }
 
 .discount-div {
+    position: absolute;
     background-color: #3f434f;
     border-radius: 20px;
     display: inline-block;
     align-items: flex-start;
-    padding: 1px
+    padding: 1px;
+    top: -1rem;
+    right: 1rem;
 }
 
 .discount-message {
+
     display: inline;
     /* Ajusta el contenedor al tamaño del texto */
     color: rgb(255, 255, 255);

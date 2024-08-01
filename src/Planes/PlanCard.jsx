@@ -17,7 +17,14 @@ const PlanCard = ({ onselectedPlan, selected, plan }) => {
        <h3 className='plan-nombre'>{plan.nombre}</h3>
        <p className='plan-precio'>€ {plan.precio}</p>
        </div>
-       
+       <div className='discount-div'>
+        {plan.descuento ?
+        <span className='discount-message'>{plan.descuento} </span> 
+        :""
+      }
+        
+
+       </div>
     
       </label>
     </div>
