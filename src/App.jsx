@@ -8,6 +8,8 @@ import Clases from './Clases/Clases'
 
 
 import PlanesHero from './Planes/PlanesHero.jsx'
+import Footer from './Footer/Footer.jsx'
+// import ReseñasHero from './Reseñas/ReseñasHero.jsx'
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
     <ServicesHero></ServicesHero>
     <Clases></Clases>
    <PlanesHero></PlanesHero>
+   {/* <ReseñasHero></ReseñasHero> */}
+   <Footer></Footer>
     </div>
 
 </>

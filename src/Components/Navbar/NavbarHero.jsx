@@ -2,9 +2,17 @@ import React from 'react'
 import { Navbar ,Nav,Container } from 'react-bootstrap'
 import '../Navbar/NavbarStyles.css'
 const NavbarHero = () => {
+  
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
+    
     <> 
-    <Navbar bg="bg-gym" data-bs-theme="dark" className='container-nav'>
+    <Navbar sticky="top" bg="bg-gym" data-bs-theme="dark" className='container-nav'>
         <Container >
           <Navbar.Brand href="#home">
       <img src='images/logo.png' className='imagen-brand' alt='logo'/>
