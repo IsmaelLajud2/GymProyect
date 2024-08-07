@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import TogglePlan from './TogglePlan'
 import PlanCard from './PlanCard'
@@ -7,10 +7,6 @@ import '../Planes/PlanStyles.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-
-
-
- 
 const PlanList = () => {
     useEffect(() => {
         Aos.init({

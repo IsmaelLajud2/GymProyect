@@ -8,10 +8,33 @@
 
 
 
-#nav-text {
+.nav-text {
     display: inline-block;
     justify-content: space-between;
     margin: 0 20% 0 20%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.445);
+    position: relative;
+    transition: 0.3s ease, color 0.3 ease;
 
 
+}
+
+.nav-text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease
+}
+
+.nav-text:hover {
+    color: #fff;
+}
+
+.nav-text:hover::after {
+    width: 100%;
 }

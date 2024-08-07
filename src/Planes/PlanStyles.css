@@ -130,12 +130,12 @@ li {
 .discount-message {
 
     display: inline;
-    /* Ajusta el contenedor al tamaño del texto */
+
     color: rgb(255, 255, 255);
-    /* Color del texto del descuento */
+
     font-weight: bold;
     font-size: 12px;
-    /* Ajusta el tamaño del texto si es necesario */
+
 }
 
 .included-icon,

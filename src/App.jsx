@@ -9,18 +9,27 @@ import Clases from './Clases/Clases'
 
 import PlanesHero from './Planes/PlanesHero.jsx'
 import Footer from './Footer/Footer.jsx'
-// import ReseñasHero from './Reseñas/ReseñasHero.jsx'
+
 
 const App = () => {
   return (
     <> 
     <div className='page-container'> 
     <NavbarHero></NavbarHero>
-    <Hero></Hero>
-    <ServicesHero></ServicesHero>
-    <Clases></Clases>
-   <PlanesHero></PlanesHero>
-   {/* <ReseñasHero></ReseñasHero> */}
+    <section id="home">
+          <Hero />  </section>
+
+    <section id="services">
+          <ServicesHero />
+        </section>
+        <section id="clases">
+    <Clases/>
+        </section>
+<section id='planes'>
+  <PlanesHero/>
+</section>
+
+ 
    <Footer></Footer>
     </div>
 
