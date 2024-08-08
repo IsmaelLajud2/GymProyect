@@ -14,14 +14,14 @@ function Footer() {
             </Col>
             <Col className='footer-col'>
 
-            <h4 className='p-footer'>Company</h4>
+            <h4 className='p-footer'>Compañía</h4>
             <p>. Lorem ipsum dolor sit amet consectetur.</p>
             <p>. Lorem ipsum dolor sit amet consectetur.</p>
             </Col>
             
             <Col className='footer-col'>
 
-            <h4 className='p-footer'>Social</h4>
+            <h4 className='p-footer'>Redes Sociales</h4>
             
 <div className="card-socialmedia">
  
