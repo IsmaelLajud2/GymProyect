@@ -1,4 +1,4 @@
-import React ,{useEffect} from 'react'
+import {useEffect} from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import '../Clases/ClasesStyles.css'
 import Aos from 'aos'
@@ -40,7 +40,7 @@ const Clases = () => {
         <div className='clases-card'>
         <img src='images/Ciclismo.png' alt='bike' className='imagen-clases'/>
         <h4 className='h4-clases'>Ciclismo</h4>
-        <p className='p-clases'>👤 Alejandro Martínez</p>
+        <p className='p-clases'>🙋‍♂️ Alejandro Martínez</p>
         </div>
        
         </Col>
@@ -48,7 +48,7 @@ const Clases = () => {
         <div className='clases-card'>
         <img src="images/Artesmarciales.png" alt="karate" className='imagen-clases' />
         <h4 className='h4-clases'>Artes Marciales</h4>
-        <p className='p-clases'>👤 David Warner</p>
+        <p className='p-clases'>🙋‍♂️ David López</p>
         </div>
       
         </Col>
@@ -56,7 +56,7 @@ const Clases = () => {
         <div className='clases-card'>
         <img src="images/Cardio.png" alt="runnig" className='imagen-clases' />
         <h4 className='h4-clases'>Clases de cardio</h4>
-        <p className='p-clases'>👤 Carlos Herrera</p>
+        <p className='p-clases'>🙋‍♂️ Carlos Herrera</p>
         </div>
        
         </Col>
@@ -64,7 +64,7 @@ const Clases = () => {
         <div className='clases-card'>
         <img src="images/gimnasiaartistica.png" alt="gimnasia" className='imagen-clases' />
         <h4 className='h4-clases'>Clases de gimnasia</h4>
-        <p className='p-clases'>👤 Sofía Gómez</p>
+        <p className='p-clases'>🙋‍♀️ Sofía Gómez</p>
         </div>
        
         </Col>
@@ -72,7 +72,7 @@ const Clases = () => {
         <div className='clases-card'>
         <img src="images/zumba.png" alt="zumba" className='imagen-clases' />
         <h4 className='h4-clases'>Clases de zumba</h4>
-        <p className='p-clases'>👤 María Suarez</p>
+        <p className='p-clases'>🙋‍♀️ María Suarez</p>
         </div>
        
         </Col>

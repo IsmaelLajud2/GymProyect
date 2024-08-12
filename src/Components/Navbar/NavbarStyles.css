@@ -38,3 +38,41 @@
 .nav-text:hover::after {
     width: 100%;
 }
+
+
+
+@media (max-width: 992px) {
+    .nav-text {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        font-size: 1.2rem;
+        transition: width 0.3 ease, color 0.3 ease;
+
+    }
+
+    .nav-text::after {
+        content: "";
+        position: absolute;
+        left: 40%;
+        bottom: 0;
+        width: 0;
+        height: 3px;
+        background-color: #f1f0f0;
+        transition: width 0.3s ease
+    }
+
+    .nav-text:hover::after {
+        width: 20%;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .imagen-brand {
+        display: flex;
+        justify-content: start;
+    }
+
+}

@@ -4,7 +4,7 @@
 
     padding: 0;
     width: 100%;
-    margin: 0;
+    margin-top: 5%;
 
 }
 
@@ -96,5 +96,44 @@
     100% {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+@media (max-width: 950px) {
+    .footer-container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .h1-footer {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .footer-col {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-imagen {
+        width: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .card-socialmedia {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .socialContainer {
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialSvg {
+        width: 14px;
     }
 }

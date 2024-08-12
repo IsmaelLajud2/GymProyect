@@ -1,5 +1,5 @@
 .hero-container {
-    padding: 140px 0;
+    padding: 80px 20px;
 }
 
 .col-article-left {
@@ -55,4 +55,102 @@
 .p-hero {
     color: rgba(255, 255, 255, 0.445);
 
+}
+
+@media (max-width: 768px) {
+    .col-article-left {
+        padding-top: 20px;
+
+    }
+
+    .hero-imagen {
+        width: 100%;
+
+        max-width: 300px;
+
+        margin-right: 40px;
+
+    }
+
+    .imagen-background::before {
+        width: 100%;
+
+        max-width: 300px;
+        top: -20px;
+
+        left: 20px;
+    }
+
+    .h1-text {
+        font-size: 36px;
+
+        width: 100%;
+
+        max-width: 100%;
+
+        margin-bottom: 20px;
+
+    }
+
+    .span-hero {
+        border-bottom-width: 4px;
+    }
+
+    .p-text,
+    .p-hero {
+        font-size: 16px;
+
+        margin-top: 10px;
+
+    }
+
+    .h2-hero {
+        padding-top: 10%;
+
+        font-size: 28px;
+
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-imagen {
+        width: 350px;
+        margin-right: 40px;
+
+    }
+
+    .imagen-background::before {
+        width: 350px;
+
+        top: -30px;
+        left: 30px;
+    }
+
+    .h1-text {
+        font-size: 48px;
+
+        width: 100%;
+
+        margin-bottom: 40px;
+
+    }
+
+    .span-hero {
+        border-bottom-width: 6px;
+
+    }
+
+    .p-text,
+    .p-hero {
+        font-size: 18px;
+
+    }
+
+    .h2-hero {
+        padding-top: 15%;
+
+        font-size: 32px;
+
+    }
 }

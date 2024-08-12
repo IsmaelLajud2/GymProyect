@@ -15,7 +15,7 @@
 .h1-clases::after {
     position: absolute;
     width: 70%;
-    height: 2%;
+    height: 2px;
     background: white;
     content: "";
     right: 45px;
@@ -25,6 +25,7 @@
 .clases-row {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -56,4 +57,15 @@
 .p-clases {
     color: rgba(255, 255, 255, 0.445);
     padding: 5px 0 25px 10px;
+}
+
+@media (max-width: 960px) {
+
+
+    .h1-clases::after {
+        top: 50px;
+        /* Ajusta la posición para pantallas más pequeñas */
+        width: 95%;
+        /* Ajusta el ancho para que sea más apropiado en pantallas pequeñas */
+    }
 }
