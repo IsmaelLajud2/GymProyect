@@ -1,16 +1,15 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import '../Footer/FooterStyles.css'
 
+
 function Footer() {
   return (
     <Container className='footer-container'>
         <Row className='footer-row'>
             <Col className='footer-col-contacto'>
             <img src='images/logo.png' className='footer-imagen' alt='logo'/>
+          
         
-         
-      
-
             </Col>
             <Col className='footer-col'>
 
