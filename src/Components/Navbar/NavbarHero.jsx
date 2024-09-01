@@ -1,5 +1,5 @@
 
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link as ScrollLink } from 'react-scroll';
 import '../Navbar/NavbarStyles.css';
 import ShowModal from './ShowModal';

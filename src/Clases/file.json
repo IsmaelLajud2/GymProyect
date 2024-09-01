@@ -1,0 +1,24 @@
+{
+    "clases": [
+        {
+            "imagen": "images/Ciclismo.png",
+            "descripcion": "Ciclismo",
+            "coach": "🙋‍♂️ Alejandro Martínez"
+        },
+        {
+            "imagen": "images/Artesmarciales.png",
+            "descripcion": "Artes Marciales",
+            "coach": "🙋‍♂️ David López"
+        },
+        {
+            "imagen": "images/Cardio.png",
+            "descripcion": "Clases de cardio",
+            "coach": "🙋‍♂️ Carlos Herrera"
+        },
+        {
+            "imagen": "images/gimnasiaartistica.png",
+            "descripcion": "Clases de gimnasia",
+            "coach": "🙋‍♀️ Sofía Gómez"
+        }
+    ]
+}

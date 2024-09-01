@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../Planes/ToggleStyles.css'
 
 const TogglePlan = ({ togglePeriodo, period }) => {

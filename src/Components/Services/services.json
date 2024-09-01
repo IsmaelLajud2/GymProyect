@@ -1,0 +1,28 @@
+{
+    "servicios": [
+        {
+            "imagen": "images/service1.png",
+            "numero": "01",
+            "tipo": "Entrenamiento de fuerza",
+            "descripcion": "Contamos con las mejores instalaciones para ti."
+        },
+        {
+            "imagen": "images/service2.png",
+            "numero": "02",
+            "tipo": "Pérdida de peso",
+            "descripcion": "Las mejores asesorías nutricionales para lograr tus objetivos."
+        },
+        {
+            "imagen": "images/service3.png",
+            "numero": "03",
+            "tipo": "Cardio y Aeróbicos",
+            "descripcion": "Ofrecemos una gran cantidad de clases para mejorar tu salud."
+        },
+        {
+            "imagen": "images/service4.png",
+            "numero": "04",
+            "tipo": "Entusiastas del gimnasio",
+            "descripcion": "Entrena en un ambiente amigable y familiar."
+        }
+    ]
+}

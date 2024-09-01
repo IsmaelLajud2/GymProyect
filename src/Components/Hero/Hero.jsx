@@ -36,7 +36,7 @@ const Hero = () => {
                 <Col>
                 <article className='article-hero'>
                     <h2 className='h2-hero'>4.8 🌟 </h2>
-                    <br /><p className='p-hero'>calificación promedio en plataforma de clientes</p>
+                    <br /><p className='p-hero'>Calificación promedio en plataforma de clientes</p>
                 </article>
                 </Col>
                 <Col> 
