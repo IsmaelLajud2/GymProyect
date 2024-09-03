@@ -1,10 +1,22 @@
+import { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../Footer/FooterStyles.css'
+import './FooterStyles.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 function Footer() {
+
+  
+  useEffect(() => {
+    Aos.init({
+      duration: 2000
+    })
+  }, [])
+
+
   return (
-    <Container className='footer-container'>
+    <Container className='footer-container'data-aos="fade-down">
         <Row className='footer-row'>
             <Col className='footer-col-contacto'>
             <img src='images/logo.png' className='footer-imagen' alt='logo'/>
@@ -14,8 +26,8 @@ function Footer() {
             <Col className='footer-col'>
 
             <h4 className='p-footer'>Compañía</h4>
-            <p>. Lorem ipsum dolor sit amet consectetur.</p>
-            <p>. Lorem ipsum dolor sit amet consectetur.</p>
+            <p className='aditional-info' >. Sobre Nosotros.</p>
+            <p className='aditional-info'>. Política de Privacidad.</p>
             </Col>
             
             <Col className='footer-col'>
@@ -43,8 +55,8 @@ function Footer() {
             </Col>
             <Col className='footer-col'>
             <h4 className='p-footer'>Más</h4>
-            <p>. Lorem ipsum dolor sit amet consectetur.</p>
-            <p>. Lorem ipsum dolor sit amet consectetur.</p>
+            <p className='aditional-info'>. Preguntas Frecuentes.</p>
+            <p className='aditional-info'>. Soporte Técnico.</p>
            
             </Col>
             

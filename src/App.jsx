@@ -4,11 +4,11 @@ import '../src/app.css'
 import NavbarHero from './Components/Navbar/NavbarHero'
 import Hero from './Components/Hero/Hero'
 import ServicesHero from './Components/Services/ServicesHero'
-import Clases from './Clases/Clases'
+import Clases from './Components/Clases/Clases.jsx'
 
 
-import PlanesHero from './Planes/PlanesHero.jsx'
-import Footer from './Footer/Footer.jsx'
+import PlanesHero from './Components/Planes/PlanesHero.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 
 
 const App = () => {

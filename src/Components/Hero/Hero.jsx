@@ -29,7 +29,7 @@ const Hero = () => {
                 <h1 className='h1-text'>Es Hora<br></br><span className='span-hero'>De Entrenar! </span> </h1>
                 <p className='p-text'>Bienvenido a nuestro gimnasio y centro de entrenamiento.
                     <br></br>
-                            Dolorido hoy, fuerte mañana. mejora tu condición física hoy.
+                            Dolorido hoy, fuerte mañana. Mejora tu condición física hoy.
                                         </p>
             </article>
             <Row >

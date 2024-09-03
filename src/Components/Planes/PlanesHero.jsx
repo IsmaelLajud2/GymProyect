@@ -1,5 +1,5 @@
 
-import '../Planes/PlanStyles.css'
+import './PlanStyles.css'
 import PlanList from './PlanList'
 const PlanesHero = () => {
 

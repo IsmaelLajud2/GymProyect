@@ -39,6 +39,17 @@
 
 }
 
+.aditional-info {
+
+    color: rgba(255, 255, 255, 0.445);
+    padding: 5px;
+    transition: 0.3s ease-in-out, color 0.3 ease;
+}
+
+.aditional-info:hover {
+    transform: translateY(-3px);
+    color: #ffff;
+}
 
 .socialContainer {
     width: 52px;

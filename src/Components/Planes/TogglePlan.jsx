@@ -1,5 +1,5 @@
 
-import '../Planes/ToggleStyles.css'
+import './ToggleStyles.css'
 
 const TogglePlan = ({ togglePeriodo, period }) => {
   return (

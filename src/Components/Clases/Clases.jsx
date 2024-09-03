@@ -1,6 +1,6 @@
 import {useEffect} from 'react'
 import {  Container, Row } from 'react-bootstrap'
-import '../Clases/ClasesStyles.css'
+import './ClasesStyles.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import "slick-carousel/slick/slick.css";

@@ -1,4 +1,4 @@
-import React ,{useState,useRef} from 'react'
+import {useState,useRef} from 'react'
 import { Button, Form, Modal } from 'react-bootstrap'
 import '../Navbar/ModalStyles.css'
 const ShowModal = () => {
@@ -41,7 +41,7 @@ const ShowModal = () => {
       Contacto
     </p>
 
-    <Modal  show={show} onHide={handleClose}>
+    <Modal style={{border:"none"}}  show={show} onHide={handleClose}>
       <Modal.Header style={{backgroundColor :"#1f212c",color:"white"}}  closeButton>
         <Modal.Title style={{backgroundColor :"#1f212c"}} >Enviame un correo</Modal.Title>
       </Modal.Header>

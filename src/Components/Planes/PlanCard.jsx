@@ -1,4 +1,4 @@
-import '../Planes/CardCheck.css'
+import './CardCheck.css'
 
 
 const PlanCard = ({ onselectedPlan, selected, plan }) => {
