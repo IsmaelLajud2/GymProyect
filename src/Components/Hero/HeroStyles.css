@@ -60,7 +60,15 @@
 @media (max-width: 768px) {
     .col-article-left {
         padding-top: 20px;
+        margin-left: 20px;
 
+    }
+
+    .hero-container {
+        display: flex;
+        max-height: fit-content;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .hero-imagen {
@@ -68,7 +76,7 @@
 
         max-width: 300px;
 
-        margin-right: 40px;
+
 
     }
 

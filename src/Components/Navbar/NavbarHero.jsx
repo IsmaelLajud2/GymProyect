@@ -4,7 +4,12 @@ import { Link as ScrollLink } from 'react-scroll';
 import '../Navbar/NavbarStyles.css';
 import ShowModal from './ShowModal';
 
+
 const NavbarHero = () => {
+
+ 
+
+
   return (
     <>
       <Navbar  data-bs-theme="dark" expand="lg" className='container-nav' collapseOnSelect>
@@ -19,7 +24,7 @@ const NavbarHero = () => {
             <ScrollLink to="services" smooth={true} duration={200} className='nav-text' id='nav-text'>Beneficios</ScrollLink>
             <ScrollLink to="clases" smooth={true} duration={200} className='nav-text' id='nav-text'>Clases</ScrollLink>
             <ScrollLink to="planes" smooth={true} duration={200} className='nav-text' id='nav-text'>Planes</ScrollLink>
-            <ScrollLink smooth={true} duration={200} className='nav-text' id='nav-text'><ShowModal></ShowModal></ScrollLink>
+            <ShowModal styles={{color:"white"}}></ShowModal>
            
        
           </Nav>
